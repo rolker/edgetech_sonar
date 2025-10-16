@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>edgetech_sonar</name>
+  <version>0.0.0</version>
+  <description>Driver for Edgetech sidescan sonar</description>
+
+  <maintainer email="roland@ccom.unh.edu">Roland Arsenault</maintainer>
+  <license>BSD</license>
+
+  <depend>marine_acoustic_msgs</depend>
+  <depend>rclpy</depend>
+
+  <export>
+    <build_type>ament_python</build_type>
+  </export>
+</package>
